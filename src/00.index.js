@@ -17,10 +17,9 @@ router.get('/', async (ctx, next) => {
 
 router.get('/tologin', async (ctx, next) => {
     ctx.body = {
-        errorno: 0,
+        errno: 0,
         data: {
-            a: 1,
-            b: 2
+            showGradeUpdate: 1
         }
     };
 });
